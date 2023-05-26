@@ -60,7 +60,7 @@
     "gh-pages": "^5.0.0",
     "handlebars-loader": "^1.7.3",
     "html-loader": "^4.2.0",
-    "html-webpack-plugin": "^5.5.0",
+    "html-webpack-plugin": "^5.5.1",
     "husky": "^8.0.2",
     "lerna": "^6.0.3",
     "lint-staged": "^13.0.3",
