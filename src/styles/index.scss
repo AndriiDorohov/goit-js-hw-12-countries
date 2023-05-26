@@ -1,0 +1,121 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: black;
+  font-family: "Calibri Light", Arial, sans-serif;
+  font-weight: 300;
+  background-color: #f5eeee;
+}
+
+a {
+  font-size: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+a.link-visited {
+  color: #060505;
+}
+
+a:hover {
+  color: #010101;
+}
+
+img {
+  border-radius: 6%;
+}
+
+input {
+  top: 0;
+  height: 50px;
+  width: 200px;
+  padding: 0 10px;
+  margin-top: 20px;
+  border: 2px solid #7fa1ff;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline-color: #007bff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.markup-container {
+  display: flex;
+  margin-top: 15px;
+}
+
+.info-container * {
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 15px;
+  text-align: left;
+  font-family: "Calibri Light", Arial, sans-serif;
+  font-weight: 300;
+  list-style-type: none;
+}
+
+.title {
+  text-align: center;
+  margin-top: auto;
+  box-shadow: 10px 10px 15px #1c1b1b66;
+  border-radius: 6px;
+  padding: 25px;
+  background-color: white;
+  font-family: "Calibri Light", sans-serif;
+  font-weight: 300;
+}
+
+.search-form {
+  margin-top: auto;
+  text-align: center;
+}
+
+.search-input {
+  width: 100%;
+  box-shadow: 10px 10px 15px #14141466;
+  font-size: 15px;
+}
+
+.js-list-link {
+  font-size: 14px;
+}
+
+.language-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.language-container-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.js-languages-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

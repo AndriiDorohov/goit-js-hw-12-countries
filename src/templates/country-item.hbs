@@ -1,0 +1,22 @@
+<article class="info-container">
+    <h2>{{name.official}}</h2>
+    <a href="https://en.wikipedia.org/wiki/{{name.official}}" rel='noreferrer noopener' target="_blank">
+        <img src="{{flags.png}}" alt="{{name.official}}" title="{{name.official}} on Wikipedia" width="350px">
+    </a>
+    <h3>Capital: <span style="color: #7095ab;">{{capital}}</span></h3>
+    <h3>Population: <span style="color: #7095ab;">{{population}}</span></h3>
+    <div class="language-container">
+       <div class="language-container-item">
+           <h3>Languages:</h3>
+       </div>
+       <div class="language-container-item">
+           <ul class="js-languages-list">
+              {{#each languages}}
+              <li>
+                  <p><span style="color: #7095ab;">{{this}}</span></p>
+              </li>
+              {{/each}}
+          </ul>
+       </div>
+	</div>
+</article>
