@@ -38,10 +38,6 @@ module.exports = {
         include: /node_modules/,
         type: 'javascript/auto',
       },
-	  {
-		test: /\.hbs$/,
-		loader: "handlebars-loader",
-	  },
       {
         test: /\.html$/i,
         loader: 'html-loader',
